@@ -28,13 +28,35 @@ const Details = () => {
     
     return (
         <div className='detailsContainer'>
-            <div className='specificinfo'>
-                <img className='yeimage' src={animeDetails.images.jpg.large_image_url} alt={animeDetails.title} />    
-                <p className='animetitleye'>{animeDetails.title}</p>
-                <p className='animetitleye'>{animeDetails.synopsis}</p>
+            <div className='animeimage'>
+                <img src={animeDetails.images.jpg.large_image_url} alt={animeDetails.title} />    
+            </div>
+            <div className='animescore'>
+                        <p className='scoretitle'>score:</p>
+                        <p><strong>{animeDetails.score}</strong></p>
+                    </div>
+            <div className='animeInfo'>
+                <div className='animeDetails'>
+                    <div className='animetitle'>
+                        <p><strong>{animeDetails.title}</strong></p>
+                        <p className='entitle'><strong>{animeDetails.title_english}</strong></p>
+                    </div>
+                    <div className='otherinfo'>
+                        <p className='othertitle'><strong>Information</strong></p>
+                        <p><strong>Type: </strong>{animeDetails.type}</p>
+                        <p><strong>Episode: </strong>{animeDetails.episodes}</p>
+                        <p><strong>Status: </strong>{animeDetails.status}</p>
+                        <p><strong>Genre: </strong>{animeDetails.genres.map(genre => genre.name).join(', ')}</p>
+                        <p><strong>Themes: </strong>{animeDetails.themes.map(theme => theme.name).join(', ')}</p>
+                        <p><strong>Duration: </strong>{animeDetails.duration}</p>
+                    </div>
+                    <div className='animesynp'>
+                        <p className='syntitle'><strong>Synopsis</strong></p>
+                        <p>{animeDetails.synopsis}</p>
+                    </div>
+                </div>
             </div>
         </div>
-
     );
 };
 
