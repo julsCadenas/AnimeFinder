@@ -271,12 +271,22 @@ body {
   }
 }
 
+.detailsContainer {
+  margin-top: 150px;
+}
+
 .loading {
   color: var(--text);
 }
 
 .animetitleye {
   color: var(--text)
+}
+
+.yeimage {
+  width: 150px;
+  height: auto;
+  border-radius: 16px;
 }
 
 .specificinfo {

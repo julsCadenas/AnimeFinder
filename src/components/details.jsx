@@ -29,6 +29,7 @@ const Details = () => {
     return (
         <div className='detailsContainer'>
             <div className='specificinfo'>
+                <img className='yeimage' src={animeDetails.images.jpg.large_image_url} alt={animeDetails.title} />    
                 <p className='animetitleye'>{animeDetails.title}</p>
                 <p className='animetitleye'>{animeDetails.synopsis}</p>
             </div>
