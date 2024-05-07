@@ -316,7 +316,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .specificinfo {
-    margin: 300px auto;
+    margin: 220px auto;
     width: 300px;
   }
 }
