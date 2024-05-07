@@ -124,7 +124,7 @@ body {
   text-decoration: none;
   background-color: transparent;
   border: none;
-  margin: 0 30px; 
+  margin: 0 50px; 
   transition: color 0.3s ease;
 }
 
@@ -174,6 +174,17 @@ body {
   font-size: 24px;
   margin-left: 20px;
   margin-right: 10px;
+  transition: font-size 0.3s ease;
+}
+
+.animeList a {
+  text-decoration: none;
+
+}
+
+.animeList p:hover {
+  font-size: 26px;
+  transition: font-size 0.3s ease;
 }
 
 .animeItem {
@@ -254,5 +265,48 @@ body {
   }   
   .animeList p {
     font-size: 18px;
+  }
+  .animeList p:hover {
+    font-size: 20px;
+  }
+}
+
+.loading {
+  color: var(--text);
+}
+
+.animetitleye {
+  color: var(--text)
+}
+
+.specificinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 600px;
+  height: 100px;
+  margin: 120px auto;
+  font-family: "Outfit";
+}
+
+.bodyContainer {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.bodyContainer.active {
+  opacity: 1;
+}
+
+.bodyContainer:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .specificinfo {
+    margin: 300px auto;
+    width: 300px;
   }
 }
