@@ -39,7 +39,7 @@ function App() {
             </button>
           </form>
           <div className={`bodyContainer ${showBody ? 'active' : ''}`} onMouseEnter={() => setShowBody(true)} onMouseLeave={() => setShowBody(false)}>
-            {showBody && <Body animeData={animeData} />} 
+            {showBody && <Body animeData={animeData} setShowBody={setShowBody} />} 
           </div>
           <Routes>
             <Route path="/details/:id" element={<Details />} />
