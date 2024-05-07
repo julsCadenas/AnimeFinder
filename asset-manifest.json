@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AnimeFinder/static/css/main.845b54dd.css",
+    "main.css": "/AnimeFinder/static/css/main.3196e210.css",
     "main.js": "/AnimeFinder/static/js/main.9e586ded.js",
     "index.html": "/AnimeFinder/index.html",
-    "main.845b54dd.css.map": "/AnimeFinder/static/css/main.845b54dd.css.map",
+    "main.3196e210.css.map": "/AnimeFinder/static/css/main.3196e210.css.map",
     "main.9e586ded.js.map": "/AnimeFinder/static/js/main.9e586ded.js.map"
   },
   "entrypoints": [
-    "static/css/main.845b54dd.css",
+    "static/css/main.3196e210.css",
     "static/js/main.9e586ded.js"
   ]
 }
