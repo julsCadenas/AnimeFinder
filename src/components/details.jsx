@@ -33,7 +33,7 @@ const Details = () => {
             </div>
             <div className='animescore'>
                         <p className='scoretitle'>score:</p>
-                        <p><strong>{animeDetails.score}</strong></p>
+                        <p className='score'><strong>{animeDetails.score}</strong></p>
                     </div>
             <div className='animeInfo'>
                 <div className='animeDetails'>
