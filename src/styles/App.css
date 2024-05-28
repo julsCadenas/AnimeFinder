@@ -468,3 +468,11 @@ body {
     width: 300px;
   }
 }
+
+.loading {
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--text);
+  margin: 100px;
+}
