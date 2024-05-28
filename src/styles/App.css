@@ -11,6 +11,14 @@ body {
   background-color: var(--background);
 }
 
+.loading {
+  font-family: "Poppins";
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--text);
+  margin: 100px;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -239,6 +247,9 @@ body {
   .animeList p {
     font-size: 18px;
   }
+  .loading {
+    font-size: 34px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -273,6 +284,9 @@ body {
   }
   .animeList p:hover {
     font-size: 20px;
+  }
+  .loading {
+    font-size: 24px;
   }
 }
 
@@ -467,12 +481,9 @@ body {
     font-size: 14px;
     width: 300px;
   }
+
+  .loading {
+    font-size: 24px;
+  }
 }
 
-.loading {
-  font-family: "Poppins";
-  font-size: 48px;
-  font-weight: bolder;
-  color: var(--text);
-  margin: 100px;
-}
